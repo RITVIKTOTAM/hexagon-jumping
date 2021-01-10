@@ -19,7 +19,7 @@ class Ball{
       var pos =this.body.position;
       push();
       translate(pos.x, pos.y);
-      fill(255);
+      fill("orange");
       rectMode(CENTER);
       rect(0, 0, this.width,this.height);
       pop();
